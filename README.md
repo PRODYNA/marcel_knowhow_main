@@ -15,18 +15,38 @@ This repo is the conceptual main project for the Marcel Know How Project. It con
 - References to the other repos
 
 # General Purpose
-The project's aim is to provide knowledge to a persona named Marcel. Marcel is new to the company
-TODO Descripe the persona
-
-TODO Describe the link persona to this project
+The project aims to provide knowledge to a persona named Marcel. Marcel starts at his company as a 
+Sales representative. Although he is an experienced salesperson with many years of experience in 
+selling, he only has a base knowledge of IT services.
+Since his company focuses on providing custom enterprise software solutions, one of Marcel's tasks 
+is to gain general knowledge about the latter area.
+The Marcel Knowledge project reflects many exemplary services his company provides in a simplified
+and documented form.
+With this project, Marcel receives an open reference for look-up, which his company and he can
+extend in multiple ways.
+Since the "how to get things running" is well documented and resettable, Marcel can even experiment
+with aspects of the project on his on machine 
+(e.g., removing or shifting buttons or modifying the AI-generated content generation).
+See: [local setup guide](./docs/local_setup.md) 
 
 # Scenario of the Project
-TODO Describe the scenario
+Marcel's company received the order to build an MVP (Minimal Viable Product) for a fictional 
+business case (details below). The project has already started and is in a developed state to be 
+looked at with certain limitations (as also listed below).
 
-# View of Thougts and Reflections in the Project
+# Relevant Aspects for a Salesperson their Reflections in this Project
 ## Business view
-Fictional: A customer wants to provide an online quizz for theme of European history to attract users. If the customer gains more then 1'000'000 users he wants to monetize by offering a Pro subscriptions for other themes paying 5 Dollar/yearly subscription with the expectation of 1% conversion.
-What will the production cost? What will be the yearly costs? What are typical questions besides costs?
+As a salesperson it is one of the most important things is to understand what kind of business 
+factors drive the customer.
+
+Fictional Business Case: A customer wants to provide an online quizz for theme of European history 
+to attract users. If the customer gains more then 1'000'000 users he wants to monetize by offering a 
+Pro subscriptions for other themes paying 5 Dollar/yearly subscription with the expectation of 
+1% conversion.
+
+- What will the production cost? 
+- What will be the yearly costs? 
+- What are typical questions besides costs?
 
 
 ## Project Organization and Management (10-15%)
@@ -91,6 +111,9 @@ The artifacts of the following areas are not yet part of the project:
 - No design and conception related artifects
 
 ## Architectural and Technical Compromises
+- No Security
+- No Personalization
+- No Internationalization (i18n)
 - No General Architecture documents.
 - No unit, integration or end-to-end tests
 - No 100% clean separation of concerns (e.g., this repo contains the AI generator script)
@@ -100,3 +123,7 @@ The artifacts of the following areas are not yet part of the project:
 - [Marcel Knowhow Frontend](hhttps://github.com/PRODYNA/marcel_knowhow_frontend)
 - [Marcel Knowhow Backend](https://github.com/PRODYNA/marcel_knowhow_backend)
 - [Marcel Knowhow Database](https://github.com/PRODYNA/marcel_knowhow_db)
+
+
+# Guide for local tool installation
+Please follow the [local setup guide](./docs/local_setup.md) to install the tools needed for the project.
