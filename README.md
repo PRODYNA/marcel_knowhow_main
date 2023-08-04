@@ -120,7 +120,7 @@ The artifacts of the following areas are not yet part of the project:
 
 # Which Repos belong to the Marcel Know How Project?
 - [Marcel Knowhow Main](https://github.com/PRODYNA/marcel_knowhow_main)
-- [Marcel Knowhow Frontend](hhttps://github.com/PRODYNA/marcel_knowhow_frontend)
+- [Marcel Knowhow Frontend](https://github.com/PRODYNA/marcel_knowhow_frontend)
 - [Marcel Knowhow Backend](https://github.com/PRODYNA/marcel_knowhow_backend)
 - [Marcel Knowhow Database](https://github.com/PRODYNA/marcel_knowhow_db)
 
