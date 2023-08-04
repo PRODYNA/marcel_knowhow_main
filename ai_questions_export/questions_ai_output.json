@@ -1,0 +1,252 @@
+[
+	{
+		"id": 1,
+		"question": "Did the French Revolution start in the 18th Century?",
+		"yes_answer": true
+	},
+	{
+		"id": 2,
+		"question": "Was the Eiffel Tower in Paris built in the 19th century?",
+		"yes_answer": true
+	},
+	{
+		"id": 3,
+		"question": "Was Queen Victoria the longest reigning British Monarch?",
+		"yes_answer": false
+	},
+	{
+		"id": 4,
+		"question": "Was Sir Winston Churchill the prime minister of UK during World War I?",
+		"yes_answer": false
+	},
+	{
+		"id": 5,
+		"question": "Is Russia a member of the European Union?",
+		"yes_answer": false
+	},
+	{
+		"id": 6,
+		"question": "Did the Soviet Union disintegrate in 1991?",
+		"yes_answer": true
+	},
+	{
+		"id": 7,
+		"question": "Did Spain remain neutral during both World Wars?",
+		"yes_answer": true
+	},
+	{
+		"id": 8,
+		"question": "Was the euro adopted as a common currency in Europe in 1999?",
+		"yes_answer": true
+	},
+	{
+		"id": 9,
+		"question": "Did the Balkan Wars take place in the 20th century?",
+		"yes_answer": true
+	},
+	{
+		"id": 10,
+		"question": "Was the Treaty of Versailles signed in 1919 to officially end World War I?",
+		"yes_answer": true
+	},
+	{
+		"id": 11,
+		"question": "Was Charlemagne the King of the Franks?",
+		"yes_answer": true
+	},
+	{
+		"id": 12,
+		"question": "Does Vatican City have the smallest population in Europe?",
+		"yes_answer": true
+	},
+	{
+		"id": 13,
+		"question": "Did the British Empire include India?",
+		"yes_answer": true
+	},
+	{
+		"id": 14,
+		"question": "Did Napoleon Bonaparte die in France?",
+		"yes_answer": false
+	},
+	{
+		"id": 15,
+		"question": "Did the Great Fire of London occur in 1666?",
+		"yes_answer": true
+	},
+	{
+		"id": 16,
+		"question": "Did England win the Fifa world cup in 1966?",
+		"yes_answer": true
+	},
+	{
+		"id": 17,
+		"question": "Is Istanbul the capital of Turkey?",
+		"yes_answer": false
+	},
+	{
+		"id": 18,
+		"question": "Was Adolf Hitler born in Germany?",
+		"yes_answer": false
+	},
+	{
+		"id": 19,
+		"question": "Was the Berlin Wall dismantled in 1989?",
+		"yes_answer": true
+	},
+	{
+		"id": 20,
+		"question": "Is the official language of Austria German?",
+		"yes_answer": true
+	},
+	{
+		"id": 21,
+		"question": "Was the Magna Carta signed in the 13th Century?",
+		"yes_answer": true
+	},
+	{
+		"id": 22,
+		"question": "Was Marie Antoinette the wife of King Louis XIV?",
+		"yes_answer": false
+	},
+	{
+		"id": 23,
+		"question": "Is the Rhine River the longest river in Europe?",
+		"yes_answer": false
+	},
+	{
+		"id": 24,
+		"question": "Did the Hundred Years' War between England and France last exactly 100 years?",
+		"yes_answer": false
+	},
+	{
+		"id": 25,
+		"question": "Did Michelangelo paint the ceiling of the Sistine Chapel?",
+		"yes_answer": true
+	},
+	{
+		"id": 26,
+		"question": "Is Mount Etna located in Greece?",
+		"yes_answer": false
+	},
+	{
+		"id": 27,
+		"question": "Did the Spanish Armada attempt to invade England in 1588?",
+		"yes_answer": true
+	},
+	{
+		"id": 28,
+		"question": "Did the Black Death plague occur in the 12th century?",
+		"yes_answer": false
+	},
+	{
+		"id": 29,
+		"question": "Is the Eurovision Song Contest an annual event in Europe?",
+		"yes_answer": true
+	},
+	{
+		"id": 30,
+		"question": "Did the Potsdam Conference take place before the end of World War II?",
+		"yes_answer": false
+	},
+	{
+		"id": 31,
+		"question": "Is William Shakespeare's plays considered part of Italian literature?",
+		"yes_answer": false
+	},
+	{
+		"id": 32,
+		"question": "Was Cleopatra Queen of France?",
+		"yes_answer": false
+	},
+	{
+		"id": 33,
+		"question": "Is the Swiss Guard responsible for the safety of the Pope?",
+		"yes_answer": true
+	},
+	{
+		"id": 34,
+		"question": "Did the Union of Soviet Socialist Republics (USSR) consist of 15 republics?",
+		"yes_answer": true
+	},
+	{
+		"id": 35,
+		"question": "Was the Louvre Palace in Paris originally built as a fortress?",
+		"yes_answer": true
+	},
+	{
+		"id": 36,
+		"question": "Was Amsterdam the capital of the Netherlands in the 16th century?",
+		"yes_answer": false
+	},
+	{
+		"id": 37,
+		"question": "Did the Renaissance period begin in Italy in the late 14th century?",
+		"yes_answer": true
+	},
+	{
+		"id": 38,
+		"question": "Was the United Kingdom formed in the 18th century?",
+		"yes_answer": true
+	},
+	{
+		"id": 39,
+		"question": "Was Finland part of the Soviet Union?",
+		"yes_answer": false
+	},
+	{
+		"id": 40,
+		"question": "Did the Battle of Waterloo end the Napoleonic Wars?",
+		"yes_answer": true
+	},
+	{
+		"id": 41,
+		"question": "Did Christopher Columbus discover America in 1492?",
+		"yes_answer": true
+	},
+	{
+		"id": 42,
+		"question": "Did the Roman Empire fall in the 5th Century?",
+		"yes_answer": true
+	},
+	{
+		"id": 43,
+		"question": "Did the First Crusade take place during the Middle Ages?",
+		"yes_answer": true
+	},
+	{
+		"id": 44,
+		"question": "Was Athens the capital of the Roman Empire?",
+		"yes_answer": false
+	},
+	{
+		"id": 45,
+		"question": "Did Leonardo da Vinci originate from France?",
+		"yes_answer": false
+	},
+	{
+		"id": 46,
+		"question": "Is the Euro the official currency of all EU member countries?",
+		"yes_answer": false
+	},
+	{
+		"id": 47,
+		"question": "Did the Viking age end in the 11th century?",
+		"yes_answer": true
+	},
+	{
+		"id": 48,
+		"question": "Did the Battle of Hastings take place in 1066?",
+		"yes_answer": true
+	},
+	{
+		"id": 49,
+		"question": "Is London the biggest city in Europe by population?",
+		"yes_answer": false
+	},
+	{
+		"id": 50,
+		"question": "Did World War I begin in 1914?",
+		"yes_answer": true
+	}
+]
