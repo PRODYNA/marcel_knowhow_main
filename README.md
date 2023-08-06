@@ -10,18 +10,27 @@
 Marcel Know How Main Project
 ===============================
 # General Purpose
-An example project aims to provide knowledge to a persona named Marcel. Marcel starts at his 
-company as a Sales representative. Although he is an experienced salesperson with many years on the
-job, he only has a base knowledge of IT services.
+TLDR; Provide an example software project for a Salesperson persona 'Marcel'
+
+This example project aims to provide knowledge to a persona named Marcel.
+
+Marcel starts at his company as a Sales representative. Although he is an experienced salesperson 
+with many years on the job, he only has a base knowledge of IT services.
 Since his company focuses on providing custom enterprise software solutions, one of Marcel's tasks 
 is to gain general knowledge about the latter area.
+
 The Marcel Knowledge project reflects many exemplary services his company provides in a simplified
 and documented form.
-With this example project, Marcel receives an open reference for look-up to gain and extend his
-knowledge.
+
+With this example project, Marcel receives a long-term reference for look-up to gain and extend his
+knowledge. Through his career at his company this example project can always serve as a base to 
+explain new concepts relevant to know for his work as a Salesperson.
+Though the aim is never to enable Marcel to provide such services in person having a concept of
+what he/she is selling will always help.
 
 # Repo Structure
-This repo is the conceptual main project for the Marcel Know How Example Project. It contains of:
+This Githup repository (repo) is the conceptual main project for the Marcel Know How Example 
+Project. It contains of:
 - General documentation to be readable by the persona Marcel (this README.md)
 - A python script to create AI content (questions and images) populated to the frontend and database (see [src] folder)
 - References to the other repos
