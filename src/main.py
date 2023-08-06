@@ -7,7 +7,7 @@ from stable_diffusion import StableDiffusion
 
 AI_OUTPUT_REL_PATH = "ai_questions_export/questions_ai_output.json"
 DB_IMPORT_REL_PATH = "../marcel_knowhow_db/neo4j_import/questions.cypher"
-FE_IMPORT_REL_PATH = "../marcel_knowhow_frontend/src/assets/ai_generated"
+FE_IMPORT_REL_PATH = "../marcel_knowhow_frontend/public/img/ai_gen"
 NO_QUESTIONS = 50
 
 
