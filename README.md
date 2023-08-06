@@ -32,8 +32,9 @@ what he/she is selling will always help.
 This Githup repository (repo) is the conceptual main project for the Marcel Know How Example 
 Project. It contains of:
 - General documentation to be readable by the persona Marcel (this README.md)
-- A python script to create AI content (questions and images) populated to the frontend and database (see [src] folder)
-- References to the other repos
+- A python script to create AI content (questions and images) populated to the frontend and 
+database (see [AI Content Generation Doc](./docs/ai_content_generation.md))
+- [A guide on how to install the local tools on windows](#guide-for-local-tool-installation) 
 
 The following other repos belong to this project:
 - [Marcel Knowhow Frontend](https://github.com/PRODYNA/marcel_knowhow_frontend)
