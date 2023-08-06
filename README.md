@@ -9,18 +9,8 @@
 ```
 Marcel Know How Main Project
 ===============================
-This repo is the conceptual main project for the Marcel Know How Example Project. It contains of 
-- General documentation
-- A python script to create AI content (questions and images) populated to the frontend and database
-- References to the other repos
-
-The following other repos belong to this project:
-- [Marcel Knowhow Frontend](https://github.com/PRODYNA/marcel_knowhow_frontend)
-- [Marcel Knowhow Backend](https://github.com/PRODYNA/marcel_knowhow_backend)
-- [Marcel Knowhow Database](https://github.com/PRODYNA/marcel_knowhow_db)
-
 # General Purpose
-This example project aims to provide knowledge to a persona named Marcel. Marcel starts at his 
+An example project aims to provide knowledge to a persona named Marcel. Marcel starts at his 
 company as a Sales representative. Although he is an experienced salesperson with many years on the
 job, he only has a base knowledge of IT services.
 Since his company focuses on providing custom enterprise software solutions, one of Marcel's tasks 
@@ -30,10 +20,16 @@ and documented form.
 With this example project, Marcel receives an open reference for look-up to gain and extend his
 knowledge.
 
-Since the "how to get things running" is well documented, Marcel can experiment with aspects of 
-the project on his on machine (e.g., modifying the AI-generated content generation).
+# Repo Structure
+This repo is the conceptual main project for the Marcel Know How Example Project. It contains of:
+- General documentation to be readable by the persona Marcel (this README.md)
+- A python script to create AI content (questions and images) populated to the frontend and database (see [src] folder)
+- References to the other repos
 
-See: [local setup guide](#guide-for-local-tool-installation) 
+The following other repos belong to this project:
+- [Marcel Knowhow Frontend](https://github.com/PRODYNA/marcel_knowhow_frontend)
+- [Marcel Knowhow Backend](https://github.com/PRODYNA/marcel_knowhow_backend)
+- [Marcel Knowhow Database](https://github.com/PRODYNA/marcel_knowhow_db)
 
 # Scenario of the Example Project
 Marcel's company received the order to build an MVP (Minimal Viable Product) for a fictional 
@@ -285,7 +281,7 @@ Regardless of the project's origin the following questions are relevant:
 There is no managed service provided for this example project other than the documentation of
 how to run the project with Azure Container Apps.
 
-# Limitations of this Example Project
+# Limitations of the Example Project
 
 # Non-Techical Limitations
 The artifacts of the following areas are not yet part of the project:
@@ -303,5 +299,8 @@ The artifacts of the following areas are not yet part of the project:
 - No 100% clean separation of concerns (e.g., this repo contains the AI generator script)
 
 # Guide for local tool installation
+Since the "how to get things running" is well documented, Marcel can experiment with aspects of 
+the project on his on machine (e.g., modifying the AI-generated content generation).
+
 Please follow the [local setup guide](./docs/local_setup.md) to install the tools needed for 
 running the example project locally on a Windows machine.
