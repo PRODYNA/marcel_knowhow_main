@@ -1,10 +1,13 @@
 import json
+import os
 
 from jni_openai import OpenAi
+from stable_diffusion import StableDiffusion
 
 
 AI_OUTPUT_REL_PATH = "ai_questions_export/questions_ai_output.json"
-DB_IMPORT_REL_PATH = "neo4j_import/questions_import.cypher"
+DB_IMPORT_REL_PATH = "../marcel_knowhow_db/neo4j_import/questions.cypher"
+FE_IMPORT_REL_PATH = "../marcel_knowhow_frontend/src/assets/ai_generated"
 NO_QUESTIONS = 50
 
 
@@ -51,10 +54,23 @@ def create_db_import_file(items: list[Item]) -> None:
 	print(f"Import written to {DB_IMPORT_REL_PATH}")
 
 
+def create_question_illustrations(items: list[Item]) -> None:
+	stable_diffusion = StableDiffusion(FE_IMPORT_REL_PATH)
+	for item in items:
+		stable_diffusion.createIllustration(item.question, str(item.id))
+	print(f"Illustrations written to {FE_IMPORT_REL_PATH}")
+
+
 def main() -> None:
-	write_questions_to_json_file()
+	if not os.path.exists((os.path.dirname(DB_IMPORT_REL_PATH))):
+		raise Exception(f"Directory {DB_IMPORT_REL_PATH} does not exist for db import file") 
+	if not os.path.exists(FE_IMPORT_REL_PATH):
+		raise Exception(f"Directory {FE_IMPORT_REL_PATH} does not exist for frontend import")
+
+	# write_questions_to_json_file()
 	items = read_questions_from_json_file()
 	create_db_import_file(items)
+	create_question_illustrations(items)
 
 
 if __name__ == "__main__":

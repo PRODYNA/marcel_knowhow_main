@@ -3,6 +3,7 @@ import os
 import openai
 from dotenv import load_dotenv
 
+API_KEY_NAME = "openai.api_key"
 
 JSON_EXAMPLE = """
 [
@@ -37,9 +38,9 @@ class OpenAi:
 	
 	def __init__(self) -> None:
 		load_dotenv()
-		key_value = os.environ.get("openai.api_key")
+		key_value = os.environ.get(API_KEY_NAME)
 		if key_value is None:
-			raise Exception('"openai.api_key" is not set in .env file!')
+			raise Exception(f'"{API_KEY_NAME}" is not set in .env file!')
 		openai.api_key = key_value
 
 	def say_hello(self) -> None:
