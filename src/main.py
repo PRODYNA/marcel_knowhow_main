@@ -57,10 +57,10 @@ def main() -> None:
 	if not os.path.exists(FE_IMPORT_REL_PATH):
 		raise Exception(f"Directory {FE_IMPORT_REL_PATH} does not exist for frontend import")
 
-	# write_questions_to_json_file()
+	write_questions_to_json_file()
 	items = read_questions_from_json_file()
 	create_db_import_file(items)
-	# create_question_illustrations(items)
+	create_question_illustrations(items)
 
 
 if __name__ == "__main__":
