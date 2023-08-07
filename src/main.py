@@ -1,21 +1,16 @@
 import json
 import os
 
+from Item import Item
 from jni_openai import OpenAi
-from stable_diffusion import StableDiffusion
+from jni_stable_diffusion import StableDiffusion
+from jni_cypher import create_cypher
 
 
 AI_OUTPUT_REL_PATH = "ai_questions_export/questions_ai_output.json"
 DB_IMPORT_REL_PATH = "../marcel_knowhow_db/neo4j_import/questions.cypher"
-FE_IMPORT_REL_PATH = "../marcel_knowhow_frontend/src/assets/ai_generated"
+FE_IMPORT_REL_PATH = "../marcel_knowhow_frontend/public/img/ai_gen"
 NO_QUESTIONS = 50
-
-
-class Item:
-	def __init__(self, id: int, question: str, yes_answer: bool):
-		self.id = id
-		self.question = question
-		self.yes_answer = yes_answer
 
 
 def write_questions_to_json_file() -> None:
@@ -43,14 +38,9 @@ def read_questions_from_json_file() -> list[Item]:
 
 
 def create_db_import_file(items: list[Item]) -> None:
+	cypher = create_cypher(items)
 	with open(DB_IMPORT_REL_PATH, "w") as file:
-		for item in items:
-			file.write(f' \
-			CREATE (q:Question {{\n \
-				id: {item.id},\n \
-				question: "{item.question}", \n \
-				yes_answer: {item.yes_answer}\n \
-			}});\n\n')
+		file.write(cypher)
 	print(f"Import written to {DB_IMPORT_REL_PATH}")
 
 
@@ -67,7 +57,7 @@ def main() -> None:
 	if not os.path.exists(FE_IMPORT_REL_PATH):
 		raise Exception(f"Directory {FE_IMPORT_REL_PATH} does not exist for frontend import")
 
-	# write_questions_to_json_file()
+	write_questions_to_json_file()
 	items = read_questions_from_json_file()
 	create_db_import_file(items)
 	create_question_illustrations(items)

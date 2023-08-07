@@ -32,7 +32,7 @@ and stored in `../marcel_knowhow_db/neo4j_import/questions.cypher`.
 ## Illustrations
 The information fromt the processed JSON file will be used to generate an illustration image for 
 each question. The illustration images will be stored in 
-`../marcel_knowhow_frontend/src/assets/ai_generated` with the pattern
+`../marcel_knowhow_frontend/public/img/ai_gen` with the pattern
  `illustration_<question_id>.png`.
 
 # Local Development Environment
