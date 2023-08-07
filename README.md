@@ -9,9 +9,10 @@
 ```
 Marcel Know How Main Project
 ===============================
-# General Purpose
-TLDR; Provide an example software project for a Salesperson persona 'Marcel'
+# Motivation
+Provide an example software project for a Salesperson persona 'Marcel' to gain knowledge and help to identify business opportunities.
 
+## Overview
 This example project aims to provide knowledge to a persona named Marcel.
 
 Marcel starts at his company as a Sales representative. Although he is an experienced salesperson 
@@ -20,13 +21,21 @@ Since his company focuses on providing custom enterprise software solutions, one
 is to gain general knowledge about the latter area.
 
 The Marcel Knowledge project reflects many exemplary services his company provides in a simplified
-and documented form.
+and documented form (e.g., UX Design, Frontend, Backend, AI-generated content and data or 
+Data Engineering).
 
+## Long-term Goal
 With this example project, Marcel receives a long-term reference for look-up to gain and extend his
 knowledge. Through his career at his company this example project can always serve as a base to 
 explain new concepts relevant to know for his work as a Salesperson.
 Though the aim is never to enable Marcel to provide such services in person having a concept of
 what he/she is selling will always help.
+
+## Example: Frontend, UX/UI, AI-Content-Generation
+<img alt="Frontend, AI content, UX" src="docs/images/marcel_mobile.jpg" style ="width:30%">
+
+##  Example: Data from backend in neo4j to be analyzed
+<img alt="Data engineering, backend" src="docs/images/neo_browser.png" style ="width:60%">
 
 # Repo Structure
 This Githup repository (repo) is the conceptual main project for the Marcel Know How Example 
@@ -52,6 +61,7 @@ A customer wants to provide an open quiz game with the theme of European history
 If the game app gains more then 1,000,000 users the customer wants to extend and monetize the app 
 by offering a "Pro subscriptions" for other themes with a payment of 5 Dollar per yearly 
 subscription and the expectation of 1% conversion.
+
 
 ## Technical Stack
 For having an easy but also realistic stack tech for Marcel's company the following stack is used:
