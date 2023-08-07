@@ -23,6 +23,7 @@ is to gain general knowledge about the latter area.
 The Marcel Knowledge project reflects many exemplary services his company provides in a simplified
 and documented form (e.g., UX Design, Frontend, Backend, AI-generated content and data or 
 Data Engineering).
+The keep it very understandable: The example project is a quiz game.
 
 ## Long-term Goal
 With this example project, Marcel receives a long-term reference for look-up to gain and extend his
