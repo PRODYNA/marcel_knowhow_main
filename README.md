@@ -144,28 +144,33 @@ and invoicing.
 ## Design and Conception / User Experience (15-25% of budget)
 In the majority of projects Marcel's company is involved in the work of the "design team" plays a significant part.
 The UX Designer's job is to understand the business and the end-users to generate the greatest possible business value with the available resources while assuring a user-centric design. A user-centric design focuses on the users' needs and problems, which are usually gathered through workshops with the clients, desk research and especially various qualitative & quantitative user research. A UX Designer often questions assumptions and where possible pre-defined requirements.
+
 Another important part of a UX designer's job is to align the understanding of the whole team, from stakeholders and product owners to the development team and bring them on the same boat. For this part, a UX designer has various tools to help them like personas, service blueprints, information architecture and other visualisations.
+
 Regular input from the development team during the strategy and ideation phase is essential to ensure the feasibility and efficient development of the solution.
 Only in collaboration can we ensure that we build the right thing right.
+
 Following is a simplified version of the PRODYNA in-house developed process XDD (Experience Driven Development) which heavily leans on the widely known design-thinking process.
 
-<img alt="XDD simplified" src="docs/images/marcel_xdd_simple.png" style ="width:30%">
+<img alt="XDD simplified" src="docs/images/marcel_xdd_simple.png" style ="width:80%">
 
 Important to mention is that the process is iterative incremental, an important concept in software development.
 
-<img alt="XDD continuous" src="docs/images/marcel_xdd_continuous.png" style ="width:30%">
+<img alt="XDD continuous" src="docs/images/marcel_xdd_continuous.png" style ="width:100%">
 
 The following graphic, which is aligned to the NN/g double diamond and not an official PRODYNA graphic, gives a closer look at the STRATEGY & IDEATION steps.
 The idea of the double diamond is that for research and understanding, the scope is wide to gather all the information from all involved sources. Defining the problem statement as well as generating insights and vision of the product is then again a focused task, the statements need to be clear and concise.
+
 Ideating a (design) solution means exploring the solution space, no idea should be thrown away prematurely as it could inform other designs or generate solid ideas. This is the right time to play with innovative ideas. The second part is building the actual designs, testing and improving them and eventually generating user stories for development. This again is a focused task where clear and concise output is needed.
 
-<img alt="XDD NNg double diamond" src="docs/images/marcel_xdd_nng_double_diamond.png" style ="width:30%">
+<img alt="XDD NNg double diamond" src="docs/images/marcel_xdd_nng_double_diamond.png" style ="width:60%">
 
-The first screens the UI designer develops are usually wireframes or directly low-fidelity screens. These are used to prove concepts, usually with user testing. Depending on how far they've been developed already, they can also be used to test the usability of the product. The analysed outcome of the tests informs the next iteration of the screens to improve them in an iterative and incremental way. These screens are also very helpful to all the stakeholders and the team to better understand what exactly is being built, get a feeling of the product and is generally a good platform for discussions.
+The first screens the UI designer develops are usually wireframes or directly low-fidelity screens. These are used to prove concepts, usually with user testing. Depending on how far they've been developed already, they can also be used to test the usability of the product. The analysed outcome of the tests informs the next iteration of the screens to improve them in an iterative and incremental way. These screens are also very helpful to all the stakeholders and the team to better understand what exactly is being built, get a feeling of the product and are generally a good platform for discussions.
+
 The focus of a UI designer is to build a user-centric product, for which they need in-depth knowledge about them. In the case of a product for regular users who use the product rarely, it is essential for the UI to be intuitive and easy to use, which often translates to more but very easy steps.
 For users who are professionals and use the product heavily on a daily basis, the main focus is on efficiency. The gain of speed from a more efficient but possibly less intuitive or more complex product far outweighs the initial hurdle of having to learn it.
 
-Testing of the UI, during and after its creation, is a big topic by itself and varies heavily by customers, however it is essential to delivering a solid UI.
+Testing of the UI, during and after its creation, is a big topic by itself and varies heavily by customers, however, it is essential to delivering a solid UI.
 
 For a salesperson, it is relevant to know that while the design team's work is in the users' best interest, outcomes are informed by the business, stakeholders, and allocated resources. For some rather IT-illiterate customers, there is a challenge of convincing.
 
