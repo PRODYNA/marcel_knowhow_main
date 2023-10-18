@@ -142,35 +142,50 @@ and invoicing.
 
 
 ## Design and Conception / User Experience (15-25% of budget)
-In the majority of projects Marcel's company is involved in the work of the "design team" plays a
-significant part. Almost any project leads to creating a software product which will be used 
-by at least one and more often different types of end users. The design team's job is to identify
-the needs and requirements of the end users and ensure to have these reflected in the product by
-working close with rest of the team.
-A typical way to gather the necessary informtion is conduct interactive workshops with the 
-customer and sometimes with the customer's end users.
-Designers also need to understand the business case and how this needs to be reflected in the product.
-Designing UI interfaces is only a small part of the job. A furhter misconception is that UI design
-means to create a nice looking UI. The main goal is to create a UI which fits the needs of the end
-users and the business case. This could also mean to have some part of the product very "attracting"
-to end users and a different part very concise and rational to be very efficient to work with for
-administrative users.
-For a sales person it is relevant to know that the design team's work is in the best interest of the
-customer. At some rather IT-illiterate customers there is challenge of convincing.
+In the majority of projects Marcel's company is involved in the work of the "design team" plays a significant part.
+The UX Designer's job is to understand the business and the end-users to generate the greatest possible business value with the available resources while assuring a user-centric design. A user-centric design focuses on the users' needs and problems, which are usually gathered through workshops with the clients, desk research and especially various qualitative & quantitative user research. A UX Designer often questions assumptions and where possible pre-defined requirements.
+Another important part of a UX designer's job is to align the understanding of the whole team, from stakeholders and product owners to the development team and bring them on the same boat. For this part, a UX designer has various tools to help them like personas, service blueprints, information architecture and other visualisations.
+Regular input from the development team during the strategy and ideation phase is essential to ensure the feasibility and efficient development of the solution.
+Only in collaboration can we ensure that we build the right thing right.
+Following is a simplified version of the PRODYNA in-house developed process XDD (Experience Driven Development) which heavily leans on the widely known design-thinking process.
+
+<img alt="XDD simplified" src="docs/images/marcel_xdd_simple.png" style ="width:30%">
+
+Important to mention is that the process is iterative incremental, an important concept in software development.
+
+<img alt="XDD continuous" src="docs/images/marcel_xdd_continuous.png" style ="width:30%">
+
+The following graphic, which is aligned to the NN/g double diamond and not an official PRODYNA graphic, gives a closer look at the STRATEGY & IDEATION steps.
+The idea of the double diamond is that for research and understanding, the scope is wide to gather all the information from all involved sources. Defining the problem statement as well as generating insights and vision of the product is then again a focused task, the statements need to be clear and concise.
+Ideating a (design) solution means exploring the solution space, no idea should be thrown away prematurely as it could inform other designs or generate solid ideas. This is the right time to play with innovative ideas. The second part is building the actual designs, testing and improving them and eventually generating user stories for development. This again is a focused task where clear and concise output is needed.
+
+<img alt="XDD NNg double diamond" src="docs/images/marcel_xdd_nng_double_diamond.png" style ="width:30%">
+
+The first screens the UI designer develops are usually wireframes or directly low-fidelity screens. These are used to prove concepts, usually with user testing. Depending on how far they've been developed already, they can also be used to test the usability of the product. The analysed outcome of the tests informs the next iteration of the screens to improve them in an iterative and incremental way. These screens are also very helpful to all the stakeholders and the team to better understand what exactly is being built, get a feeling of the product and is generally a good platform for discussions.
+The focus of a UI designer is to build a user-centric product, for which they need in-depth knowledge about them. In the case of a product for regular users who use the product rarely, it is essential for the UI to be intuitive and easy to use, which often translates to more but very easy steps.
+For users who are professionals and use the product heavily on a daily basis, the main focus is on efficiency. The gain of speed from a more efficient but possibly less intuitive or more complex product far outweighs the initial hurdle of having to learn it.
+
+Testing of the UI, during and after its creation, is a big topic by itself and varies heavily by customers, however it is essential to delivering a solid UI.
+
+For a salesperson, it is relevant to know that while the design team's work is in the users' best interest, outcomes are informed by the business, stakeholders, and allocated resources. For some rather IT-illiterate customers, there is a challenge of convincing.
 
 Typical questions and topics
-- How to "catch" the user?
+- How to "catch" and "retain" the user?
 - How do we get feedback from the customer and the customer's users?
-- Where and how do we  document?
+- Where and how do we document?
 - What kind of different user groups do we have?
 - How can we design the product (especially the UI) to achieve which goals (e.g., a hip/conservative impression?)
 - How can we assess the quality of the design?
 - How do the designers interact with development?
 
 Typical tools to document the design and conception are Figma and Miro.
-Though for a lack of time in this example project there is no design and conception documentation.
-For the example project it would be a very challenging task to ensure how the quiz game could stand
-out from other quiz games to actually attract a significant user base.
+
+A possible setup is the following, where ideation happened mostly in Figma, even though many designers still prefer pen & paper.
+
+- [Ideation, for feedback and testing](https://www.figma.com/file/mq0uWjzAYO94Mboxm06DfJ/Know-thy-stuff?type=design&node-id=0-1&mode=design)
+
+- [Screens, ready for development](https://www.figma.com/file/mq0uWjzAYO94Mboxm06DfJ/Know-thy-stuff?type=design&node-id=1-14&mode=design)
+
 
 ## Data and AI View (5-30% of budget)
 ### Data
